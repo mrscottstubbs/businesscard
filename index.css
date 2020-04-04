@@ -68,6 +68,10 @@ article {
 }
 
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #f0f5f9;
   padding: 10px;
   text-align: center;
