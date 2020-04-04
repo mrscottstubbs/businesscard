@@ -6,7 +6,6 @@
 body {
 font-family: 'Montserrat', sans-serif;}
 
-/* Style the header */
 header {
   background-color: #f0f5f9;
   padding: 30px;
@@ -15,13 +14,11 @@ header {
   color: #52616b;
 }
 
-/* Container for flexboxes */
 section {
   display: -webkit-flex;
   display: flex;
 }
 
-/* Style the navigation menu */
 nav {
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -31,14 +28,12 @@ nav {
   font-size: 200;
 }
 
-/* Style the list inside the menu */
 nav ul {
   list-style-type: none;
   padding: 20;
   font-size: 500;
 }
 
-/* Style the content */
 article {
   -webkit-flex: 3;
   -ms-flex: 3;
@@ -72,7 +67,6 @@ article {
   width: 10%;
 }
 
-/* Style the footer */
 footer {
   background-color: #f0f5f9;
   padding: 10px;
@@ -80,7 +74,6 @@ footer {
   color: #52616b;
 }
 
-/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
 @media (max-width: 600px) {
   section {
     -webkit-flex-direction: column;
